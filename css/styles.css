@@ -1,0 +1,157 @@
+body {
+    font-family: 'PT Sans', Arial, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    font-family: Cuprum, Arial, sans-serif;
+}
+
+.header-topline {
+    background-color: #293449;
+    color: #ffffff;
+}
+
+.main-logo {
+    font-size: 24px;
+    line-height: 1;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ee3643;
+    border-bottom: 5px #b52933 solid;
+    display: block;
+    width: 220px;
+    height: 47px;
+    text-align: center;
+}
+
+.main-logo:hover {
+    background-color: #ca2c37;
+    border-bottom-color: #9a212a;
+
+}
+
+.header-search input {
+    width: 270px;
+    height: 42px;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.header-search input[type="search"]::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.header-search input[type="search"]::-moz-placeholder {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.header-search input:hover {
+    background-color: #212a3a;
+
+}
+
+.header-search input:focus {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.header-link {
+    color: #ffffff;
+    font-size: 17px;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+}
+
+.header-link:hover {
+    background-color: #212a3a;
+
+}
+
+.header-link:active {
+    background-color: #161d29;
+}
+
+.header-link--order {
+    background-color: #63a63e;
+}
+
+.header-link--order:hover {
+    background-color: #5fbb2d;
+}
+
+.header-link--order:active {
+    background-color: #518534;
+}
+
+.header-body {
+    background-color: #f4f7f9;
+}
+
+.header-slogan {
+    font-size: 16px;
+    color: #ee3643;
+    font-style: italic;
+    line-height: 1.44;
+}
+
+.header-tel {
+    font-size: 21px;
+    color: #ee3643;
+    border: 3px #ffffff solid;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header-address {
+    font-size: 14px;
+    color: #32425c;
+    line-height: 1.72;
+    text-decoration: none;
+}
+
+.header-user-btn {
+    background-color: #ffffff;
+    font-size: 21px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-user-btn:hover {
+    color: #ee3643;
+}
+
+.header-user-btn:active {
+    color: #b2b2b2;
+}
+.header-nav ul {
+    list-style: none;
+}
+.header-nav a {
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #32425c;
+    text-decoration: none;
+    border-bottom: 5px solid #293449;
+}
+.header-nav a:hover {
+    background-color: #293449;
+  
+}
+.header-nav a:active {
+color: #868c95;
+background-color: #1d2739;
+border-bottom-color: #1d2739;
+}
